@@ -28,7 +28,7 @@ def predict():
     
 
 if __name__ == '__main__':
-    from waitress import serve
+    #from waitress import serve
     flask_app.run(debug = True)
 
 
