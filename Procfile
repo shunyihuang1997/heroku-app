@@ -1,1 +1,1 @@
-web: gunicorn flask_app:app
+web: gunicorn heroku-app-demo3:app
