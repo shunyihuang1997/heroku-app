@@ -13,11 +13,11 @@ model = pickle.load(open('model.pkl', 'rb'))
 if __name__ == "__main__":
     app.run(debug=True)
 
-@flask_app.route('/')
+@app.route('/')
 def home():
     return render_template('flask_app.html')
 
-@flask_app.route('/predict',methods = ['POST'])
+@app.route('/predict',methods = ['POST'])
 def predict():
     
     int_features = [int(x) for x in request.form.values()]
