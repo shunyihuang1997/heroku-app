@@ -17,6 +17,7 @@ from sklearn.preprocessing import LabelEncoder
 from sklearn.linear_model import LinearRegression
 from flask import Flask, request, jsonify, render_template
 from sklearn.metrics import mean_squared_error
+from collections.abc import Mapping
 
 
 
