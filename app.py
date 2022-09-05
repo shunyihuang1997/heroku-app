@@ -10,8 +10,6 @@ import pickle
 app = Flask(__name__)
 model = pickle.load(open('model.pkl', 'rb'))
 
-if __name__ == "__main__":
-    app.run(debug=True)
 
 @app.route('/')
 def home():
