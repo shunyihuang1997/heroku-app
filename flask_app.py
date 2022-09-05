@@ -142,7 +142,7 @@ def predict():
 
 if __name__ == '__main__':
     from waitress import serve
-    flask_app.run(port=5000,debug = True)
+    flask_app.run(debug = True)
 
 
 
