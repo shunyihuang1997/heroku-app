@@ -6,6 +6,9 @@
 import numpy as np
 from flask import Flask, request,render_template
 import pickle
+from collections.abc import Mapping
+from collections.abc import MutableMapping
+from collections.abc import 
 
 app = Flask(__name__)
 model = pickle.load(open('model.pkl', 'rb'))
