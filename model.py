@@ -19,7 +19,7 @@ from flask import Flask, request, jsonify, render_template
 from sklearn.metrics import mean_squared_error
 from collections.abc import Mapping
 from collections.abc import MutableMapping
-from collections.abc import 
+from collections.abc import Sequence
 
 
 
